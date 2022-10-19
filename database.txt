@@ -1,0 +1,45 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+Database
+
+USED CAR
+
+Id                         : INTERO - MEDIUMINT PRIMARY KEY NOT-NULL AUTOINCREMENT UNIQUE NOT-NULL           
+
+Tipo di veicolo            : STRINGER - VARCHAR(20) NOT-NULL   
+
+Colore                     : STRINGER - VARCHAR(40) NOT-NULL 
+
+Carrozzeria                : STRINGER - VARCHAR(60) NOT-NULL 
+
+Porte                      : INTERO - TINYINT NOT-NULL 
+
+Posti                      : INTERO - TINYINT NOT-NULL 
+
+Km percorsi                : INTERO - MEDIUMINT NOT-NULL 
+
+Immatricolazione           : DATA - YEAR NOT-NULL 
+
+Identificativo veicolo     : STRINGER - VARCHAR(7) NOT-NUL 
+
+Numero pratica             : STRINGER - VARCHAR(20) NOT-NUL
+
+Alimentazione              : STRINGER - VARCHAR(20) NOT-NUL 
+
+Tipo di cambio             : STRINGER - VARCHAR(10) NOT-NUL 
+
+Trazione                   : STRINGER - VARCHAR(15) NOT-NUL 
+
+Cilindrata                 : STRINGER - VARCHAR(10) NOT-NUL  ???
+
+Potenza                    : STRINGER - VARCHAR(15) NOT-NUL ??
+
+Neopatentati               : STRINGER - VARCHAR(2) NOT-NUL
+
+Consumi:                   : STRINGER - VARCHAR(50) NOT-NUL  ???
+
+Emissioni di CO2           : STRINGER - VARCHAR(20) NOT-NUL  ???
+
+Classe emissioni           :  STRINGER - VARCHAR(7) NOT-NUL 
+
+
